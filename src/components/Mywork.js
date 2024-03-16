@@ -138,7 +138,7 @@ export default function MyWork() {
               <div className="work_item">
                 <img
                   src="muthoni_music.jpg"
-                  alt="Image 4"
+                  alt="Muthoni Music"
                   className="object-cover w-full h-full  mb-4"
                   style={{
                     width: "100%",
@@ -173,7 +173,7 @@ export default function MyWork() {
               <div className="work_item">
                 <img
                   src="beauty_square.png"
-                  alt="Image 5"
+                  alt="Beauty Square"
                   className="object-cover w-full h-full mb-4"
                   style={{
                     width: "100%",
@@ -196,7 +196,7 @@ export default function MyWork() {
               <div className="work_item">
                 <img
                   src="kidum.jpg"
-                  alt="Image 6"
+                  alt="Kidum"
                   className="object-cover w-full h-full mb-4"
                   style={{
                     width: "100%",

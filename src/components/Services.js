@@ -51,7 +51,7 @@ export default function Services() {
             <div className="md:shrink-0 md:mr-16">
               <img
                 className="h-full w-full object-cover md:h-full md:w-48"
-                alt="Side Image"
+                alt="Olivia"
                 style={{ width: "100%", maxWidth: "300px" }}
                 src="./sideimage.png"
               />

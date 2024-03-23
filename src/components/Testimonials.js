@@ -4,7 +4,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="flex flex-col md:flex-row items-center h-screen"
+      className="flex flex-col md:flex-row items-center"
     >
       <div className="container mx-auto px-4 py-8">
         <h2 className="text-3xl font-bold mb-4 text-orange">CLIENT REVIEWS</h2>

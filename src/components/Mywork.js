@@ -3,12 +3,12 @@ export default function MyWork() {
   return (
     <section
       id="mywork"
-      className="flex  items-center h-screen2 sm:flex-row"
+      className="flex flex-row items-center sm:flex-col"
     >
       <div className="container lg:w-full mx-auto px-4 py-8 items-center">
         <div>
           <div className="flex flex-col w-full ">
-            <h1 className="text-5xl font-bold text-orange">MY WORK</h1>
+            <h1 className="text-5xl font-bold font-baskerville text-orange">MY WORK</h1>
             <h2 className="text-2xl font-bold mb-4 text-orange">
               SOCIAL MEDIA MANAGEMENT
             </h2>
@@ -40,7 +40,7 @@ export default function MyWork() {
             />
           </div> */}
 
-          <div className="p-8 m-4">
+          <div className=" m-4">
             <div className="grid grid-row-4 auto-rows-fr sm:grid-cols-3 gap-4 mb-40">
               <div>
                 <img
@@ -132,9 +132,7 @@ export default function MyWork() {
                   .
                 </p>
               </div>
-            </div>
 
-            <div className="grid grid-row-4 auto-rows-fr sm:grid-cols-3 gap-4 mb-20 ">
               <div className="work_item">
                 <img
                   src="muthoni_music.jpg"
@@ -226,7 +224,7 @@ export default function MyWork() {
                   style={{
                     width: "50%",
                     maxWidth: "100px",
-                    maxHeight: "100px"
+                    maxHeight: "100px",
                   }}
                 />
                 <span>Press Releases, Artist Biographies (2020 -2021)</span>
@@ -239,7 +237,7 @@ export default function MyWork() {
                   style={{
                     width: "50%",
                     maxWidth: "100px",
-                    maxHeight: "100px"
+                    maxHeight: "100px",
                   }}
                 />
                 <span>
@@ -254,7 +252,7 @@ export default function MyWork() {
                   style={{
                     width: "50%",
                     maxWidth: "100px",
-                    maxHeight: "100px"
+                    maxHeight: "100px",
                   }}
                 />
                 <span>
@@ -290,7 +288,7 @@ export default function MyWork() {
                   style={{
                     width: "50%",
                     maxWidth: "100px",
-                    maxHeight: "100px"
+                    maxHeight: "100px",
                   }}
                 />
                 <span>Content Ideation, AD Strategy & ROI (2022)</span>
@@ -303,7 +301,7 @@ export default function MyWork() {
                   style={{
                     width: "50%",
                     maxWidth: "100px",
-                    maxHeight: "100px"
+                    maxHeight: "100px",
                   }}
                 />
                 <span>
@@ -319,7 +317,7 @@ export default function MyWork() {
                   style={{
                     width: "50%",
                     maxWidth: "100px",
-                    maxHeight: "100px"
+                    maxHeight: "100px",
                   }}
                 />
                 <span>

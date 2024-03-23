@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex items-center lg:flex-row  h-screen sm:flex-col "
+      className="flex items-center lg:flex-row sm:flex-col "
     >
       <div className="container mx-auto px-4 py-8">
         <div className="md:flex">

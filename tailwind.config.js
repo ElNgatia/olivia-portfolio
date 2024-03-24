@@ -7,7 +7,8 @@ module.exports = {
       white: "#ffffff",
     },
     fontFamily: {
-      baskerville: ["Libre Baskerville", "serif"],
+      merriweather: ["Merriweather-Regular", "serif"],
+      merriweatherbold:["Merriweather-Bold","serif"],
     },
     extend: {},
   },

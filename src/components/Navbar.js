@@ -6,16 +6,16 @@ export default function Navbar() {
     setIsNavOpen(false);
   };
   return (
-    <header className="bg-white md:sticky top-0 z-10 ">
-      <div className=" flex items-center justify-between py-8">
+    <header className="bg-white fixed md:sticky top-0 z-5 w-full font-merriweather">
+      <div className=" flex items-center justify-between py-6 mx-4">
         <a
-          className="title-font font-medium mb-4 md:mb-0 ml-3 text-3xl text-orange"
+          className="title-font font-merriweather mb-4 md:mb-0 ml-3 text-3xl text-orange"
           href="#about"
         >
           Olivia Mukora
         </a>
         <nav>
-          <section className="mobile-menu flex md:hidden">
+          <section className="mobile-menu flex md:hidden ">
             <div
               className="HAMBURGER-ICON space-y-2 mr-8"
               onClick={() => setIsNavOpen((prev) => !prev)}
@@ -42,7 +42,7 @@ export default function Navbar() {
                   <line x1="6" y1="6" x2="18" y2="18" />
                 </svg>
               </div>
-              <div className="flex flex-col items-center justify-center h-screen">
+              <div className="flex flex-col items-center justify-center space-y-6 h-screen">
                 <a
                   href="#services"
                   className="mr-5 hover:text-orange"
@@ -103,7 +103,7 @@ export default function Navbar() {
       }
       .showMenuNav {
         display: block;
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100vh;
         top: 0;

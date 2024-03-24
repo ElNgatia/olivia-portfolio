@@ -1,11 +1,12 @@
-
-@import"tailwindcss/base";
-@import"tailwindcss/components";
-@import"tailwindcss/utilities";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @font-face {
-  font-family: "Libre Baskerville";
-  src: url("../public/fonts/LibreBaskerville-Regular.ttf");
+  font-family: "Merriweather-regular";
+  src: url("../public/fonts/Merriweather-Regular.ttf");
 }
-
-
+@font-face {
+  font-family: "Merriweather-bold";
+  src: url("../public/fonts/Merriweather-Bold.ttf");
+}

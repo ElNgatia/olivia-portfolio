@@ -9,25 +9,25 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex items-center lg:flex-row sm:flex-col "
+      className="flex items-center lg:flex-row min-h-screen sm:flex-col font-merriweather py-8 my-8"
     >
       <div className="container mx-auto px-4 py-8">
         <div className="md:flex">
           <div className="sm:shrink-0 md:mr-8">
             <img
-              className="h-48 w-48 object-cover md:h-full md:w-48"
+              className="h-40 w-48 object-cover md:h-full md:w-48"
               alt="Olivia Mukora"
-              style={{ width: "100%", maxWidth: "350px" }}
+              style={{ width: "100%" }}
               src="olivia_mukora.jpg"
             />
           </div>
 
-          <div className="container flex mx-auto md:flex-shrink sm:flex-shrink md:w-1/2 sm:w-1/8 flex-col sm:text-left md:text-left items-center text-center">
-            <h1 className="title-font sm:text-3xl text-3xl mb-4 font-medium text-orange">
-              TALK TO ME
+          <div className="container flex mx-auto md:flex-shrink sm:flex-shrink md:w-1/2 sm:w-1/8 flex-col sm:text-left md:text-left items-center justify-center text-center">
+            <h1 className="title-font sm:text-3xl text-3xl mb-4 font-medium font-merriweatherbold text-orange">
+              talk to me
             </h1>
-            <div className="flex flex-col md:flex-col items-start mb-4">
-              <div className="flex flex-col md:flex-col md:items-start space-y-2 md:space-y-0 md:space-x-4 mb-4">
+            <div className="items-start mb-4">
+              <div className="flex flex-col space-y-2 md:space-y-0 mb-4">
                 <span className="text-sm md:text-lg font-semibold">Email:</span>
                 <p className="text-base md:text-xl">
                   thetwelfthstudio@gmail.com
@@ -39,7 +39,7 @@ export default function Contact() {
                 <span className="text-sm md:text-lg font-semibold">
                   Socials:
                 </span>
-                <div className="flex space-x-4">
+                <div className="space-x-4 items-center">
                   <a
                     href="https://www.instagram.com/12th.studio_/"
                     target="_blank"

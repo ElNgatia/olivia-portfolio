@@ -4,10 +4,10 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="flex flex-col md:flex-row items-center"
+      className="flex flex-col md:flex-row items-center min-h-screen font-merriweather py-8 my-8"
     >
-      <div className="container mx-auto px-4 py-8">
-        <h2 className="text-3xl font-bold mb-4 text-orange">CLIENT REVIEWS</h2>
+      <div className="container mx-auto px-4 py-16">
+        <h2 className="text-3xl font-merriweatherbold mb-4 text-orange">client reviews</h2>
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/3 px-4 mb-8">
             <div className="aspect-w-16 aspect-h-9">

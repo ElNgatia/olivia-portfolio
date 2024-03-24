@@ -3,14 +3,14 @@ export default function MyWork() {
   return (
     <section
       id="mywork"
-      className="flex flex-row items-center sm:flex-col"
+      className="flex flex-row items-center sm:flex-col min-h-screen  py-8 my-8 "
     >
-      <div className="container lg:w-full mx-auto px-4 py-8 items-center">
+      <div className="container lg:w-full my-8 px-4  py-8 items-center">
         <div>
           <div className="flex flex-col w-full ">
-            <h1 className="text-5xl font-bold font-baskerville text-orange">MY WORK</h1>
-            <h2 className="text-2xl font-bold mb-4 text-orange">
-              SOCIAL MEDIA MANAGEMENT
+            <h1 className="text-4xl font-merriweatherbold text-orange">my work</h1>
+            <h2 className="text-2xl font-merriweatherbold mb-4 text-orange">
+              social media management
             </h2>
           </div>
           {/* <div className="flex flex-row space-x-2 lg:max-w-lg lg:w-full md:w-1/8 md:mr-16 lg:mr-24 sm:w-1/16">
@@ -58,13 +58,13 @@ export default function MyWork() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <h2 className="text-sm md:text-xl font-bold mb-2 underline">
+                  <h2 className="text-base md:text-xl mb-2 underline">
                     St. Paul Youth Services
                   </h2>
                 </a>
-                <p className="text-sm md:text-xl">
+                <p className="text-base md:text-xl ">
                   Minnesota Based Non-Profit that has contracted me for all
-                  round Social Media Solutions; Strategy, solutions and
+                  round Social Media Solutions Strategy, solutions and
                   Management.
                 </p>
               </div>
@@ -80,11 +80,11 @@ export default function MyWork() {
                   }}
                 />
                 <a href="https://www.instagram.com/theartisticpsychologist/">
-                  <h2 className="text-sm md:text-xl font-bold mb-2 underline">
+                  <h2 className="text-base md:text-xl  mb-2 underline">
                     The Artistic Psychologist
                   </h2>
                 </a>
-                <p className="text-sm md:text-xl">
+                <p className="text-base md:text-xl ">
                   Nairobi based Psychologist who needed help with Blog, Podcast
                   and Social Media Content Management.
                 </p>
@@ -101,11 +101,11 @@ export default function MyWork() {
                   }}
                 />
                 <a href="https://www.instagram.com/wanjikusocials/">
-                  <h2 className="text-sm md:text-xl font-bold mb-2 underline">
+                  <h2 className="text-base md:text-xl mb-2 underline">
                     Wanjiku Socials
                   </h2>
                 </a>
-                <p className="text-sm md:text-xl mb-2 ">
+                <p className="text-base md:text-xl mb-2 ">
                   A Content Strategist who has subcontracted me for work with
                   <a
                     className="underline"
@@ -145,11 +145,11 @@ export default function MyWork() {
                   }}
                 />
                 <a href="https://www.instagram.com/muthonimusic/">
-                  <h2 className="text-sm md:text-xl font-bold mb-2 underline ">
+                  <h2 className="text-base md:text-xl  mb-2 underline ">
                     Muthoni music
                   </h2>
                 </a>
-                <p className="text-sm md:text-xl">
+                <p className="text-base md:text-xl ">
                   Creative entrepreneur and musician that needed Social Media
                   Management and Strategy for herself, the{" "}
                   <a
@@ -168,7 +168,7 @@ export default function MyWork() {
                   .
                 </p>
               </div>
-              <div className="work_item">
+              <div className="work_item ">
                 <img
                   src="beauty_square.png"
                   alt="Beauty Square"
@@ -183,10 +183,10 @@ export default function MyWork() {
                   href="https://www.instagram.com/beautysquare.ke/"
                   className="underline"
                 >
-                  <h2 className="text-lg font-bold mb-2">Beauty Square</h2>
+                  <h2 className="text-base md:text-xl  mb-2">Beauty Square</h2>
                 </a>
 
-                <p className="text-sm md:text-xl">
+                <p className="text-base md:text-xl">
                   Beauty and Skincare enterprise that needed help with Content
                   Management, Strategy and scheduling.
                 </p>
@@ -202,8 +202,8 @@ export default function MyWork() {
                     maxHeight: "250px",
                   }}
                 />
-                <h2 className="text-lg font-bold mb-2">Kidum</h2>
-                <p className="text-sm md:text-xl">
+                <h2 className="text-base md:text-xl  mb-2 underline">Kidum</h2>
+                <p className="text-base md:text-xl">
                   Kenyan based Burundian Musician who needed Social Media
                   Management.
                 </p>
@@ -214,7 +214,7 @@ export default function MyWork() {
         <div className="flex flex-wrap justify-center mt-10">
           {/* First Column */}
           <div className="w-full md:w-1/2 px-4 mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-orange">COPYWRITING</h2>
+            <h2 className="text-2xl font-merriweatherbold mb-4 text-orange">copywriting</h2>
             <ul className="list-none pl-0 mb-4">
               <li className="flex items-center">
                 <img
@@ -276,8 +276,8 @@ export default function MyWork() {
 
           {/* Second Column */}
           <div className="w-full md:w-1/2 px-4 mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-orange">
-              COACHING & STRATEGY
+            <h2 className="text-2xl font-merriweatherbold mb-4 text-orange">
+              coaching & strategy
             </h2>
             <ul className="list-disc pl-4 mb-4">
               <li className="flex items-center">
@@ -330,8 +330,8 @@ export default function MyWork() {
             {/* More Client Info */}
             <div>
               <a href="https://drive.google.com/file/d/1rlO_Kw_FjVn3pUXlOMhNR_3s1LHvND-n/view">
-                <h3 className="text-lg-orange font-bold mb-2 underline text-orange">
-                  MORE CLIENT INFO
+                <h3 className="text-lg font-merriweatherbold mb-2 underline text-orange">
+                 more client info
                 </h3>
               </a>
             </div>

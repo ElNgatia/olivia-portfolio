@@ -6,11 +6,11 @@ export default function Navbar() {
     setIsNavOpen(false);
   };
   return (
-    <header className="bg-white fixed md:sticky top-0 z-5 w-full font-merriweather">
+    <header className="bg-white bg-opacity-5 fixed md:fixed top-0 w-full font-merriweather">
       <div className=" flex items-center justify-between py-6 mx-4">
         <a
           className="title-font font-merriweather mb-4 md:mb-0 ml-3 text-3xl text-orange"
-          href="#about"
+          href="/"
         >
           Olivia Mukora
         </a>
@@ -44,28 +44,28 @@ export default function Navbar() {
               </div>
               <div className="flex flex-col items-center justify-center space-y-6 h-screen">
                 <a
-                  href="#services"
+                  href="/services"
                   className="mr-5 hover:text-orange"
                   onClick={closeMenu}
                 >
                   Services
                 </a>
                 <a
-                  href="#mywork"
+                  href="/mywork"
                   className="mr-5 hover:text-orange"
                   onClick={closeMenu}
                 >
                   My Work
                 </a>
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="mr-5 hover:text-orange"
                   onClick={closeMenu}
                 >
                   Contact Me
                 </a>
                 <a
-                  href="#testimonials"
+                  href="/testimonials"
                   className="mr-5 hover:text-orange"
                   onClick={closeMenu}
                 >
@@ -76,22 +76,22 @@ export default function Navbar() {
           </section>
           <ul className="DESKTOP-MENU hidden space-x-8 md:flex">
             <li>
-              <a href="#services" className="mr-5 hover:text-orange">
+              <a href="/services" className="mr-5 hover:text-orange">
                 Services
               </a>
             </li>
             <li>
-              <a href="#mywork" className="mr-5 hover:text-orange">
+              <a href="/mywork" className="mr-5 hover:text-orange">
                 My Work
               </a>
             </li>
             <li>
-              <a href="#contact" className="mr-5 hover:text-orange">
+              <a href='/contact' className="mr-5 hover:text-orange">
                 Contact Me
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="mr-5 hover:text-orange">
+              <a href="/testimonials" className="mr-5 hover:text-orange">
                 Testimonials
               </a>
             </li>

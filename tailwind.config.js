@@ -8,9 +8,13 @@ module.exports = {
     },
     fontFamily: {
       merriweather: ["Merriweather-Regular", "serif"],
-      merriweatherbold:["Merriweather-Bold","serif"],
+      merriweatherbold: ["Merriweather-Bold", "serif"],
+      safiramarch: ["Safira March", "serif"],
+      droidserif: ["Droid Serif", "serif"],
     },
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 };

@@ -10,3 +10,13 @@
   font-family: "Merriweather-bold";
   src: url("../public/fonts/Merriweather-Bold.ttf");
 }
+
+@font-face {
+  font-family: "Safira March";
+  src: url("../public/fonts/Safira\ March.otf");
+}
+
+@font-face{
+  font-family: "Droid Serif";
+  src: url("../public/fonts/DroidSerif-Regular.ttf");
+}

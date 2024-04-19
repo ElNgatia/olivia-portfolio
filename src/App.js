@@ -9,19 +9,18 @@ import Testimonials from "./components/Testimonials";
 import { Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="mt-84">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/mywork" element={<MyWork />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/testimonials" element={<Testimonials />} />
-        </Routes>
-      </div>
-    </div>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/mywork" element={<MyWork />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+      </Routes>
+    </>
   );
 }
 

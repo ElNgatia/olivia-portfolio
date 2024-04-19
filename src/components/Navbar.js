@@ -6,14 +6,8 @@ export default function Navbar() {
     setIsNavOpen(false);
   };
   return (
-    <header className="bg-white bg-opacity-5 fixed md:fixed top-0 w-full font-merriweather">
-      <div className=" flex items-center justify-between py-6 mx-4">
-        <a
-          className="title-font font-merriweather mb-4 md:mb-0 ml-3 text-3xl text-orange"
-          href="/"
-        >
-          Olivia Mukora
-        </a>
+    <header className="bg-white bg-opacity-50 fixed  top-0 w-full font-droidserif z-9999 md:sticky">
+      <div className=" flex items-center justify-end py-6 mx-4">
         <nav>
           <section className="mobile-menu flex md:hidden ">
             <div
@@ -44,55 +38,57 @@ export default function Navbar() {
               </div>
               <div className="flex flex-col items-center justify-center space-y-6 h-screen">
                 <a
+                  href="/about"
+                  className="mr-5 hover:text-orange"
+                  onClick={closeMenu}
+                >
+                  ABOUT
+                </a>
+                <a
                   href="/services"
                   className="mr-5 hover:text-orange"
                   onClick={closeMenu}
                 >
-                  Services
+                  SERVICES
+                </a>
+
+                <a
+                  href="/contact"
+                  className="mr-5 hover:text-orange"
+                  onClick={closeMenu}
+                >
+                  CONTACT ME
                 </a>
                 <a
                   href="/mywork"
                   className="mr-5 hover:text-orange"
                   onClick={closeMenu}
                 >
-                  My Work
-                </a>
-                <a
-                  href="/contact"
-                  className="mr-5 hover:text-orange"
-                  onClick={closeMenu}
-                >
-                  Contact Me
-                </a>
-                <a
-                  href="/testimonials"
-                  className="mr-5 hover:text-orange"
-                  onClick={closeMenu}
-                >
-                  Testimonials
+                  PORTFOLIO
                 </a>
               </div>
             </div>
           </section>
           <ul className="DESKTOP-MENU hidden space-x-8 md:flex">
             <li>
-              <a href="/services" className="mr-5 hover:text-orange">
-                Services
+              <a href="/about" className="mr-5 text-orange">
+                ABOUT
               </a>
             </li>
             <li>
-              <a href="/mywork" className="mr-5 hover:text-orange">
-                My Work
+              <a href="/services" className="mr-5 text-orange">
+                SERVICES
+              </a>
+            </li>
+
+            <li>
+              <a href="/contact" className="mr-5 text-orange">
+                CONTACT ME
               </a>
             </li>
             <li>
-              <a href='/contact' className="mr-5 hover:text-orange">
-                Contact Me
-              </a>
-            </li>
-            <li>
-              <a href="/testimonials" className="mr-5 hover:text-orange">
-                Testimonials
+              <a href="/mywork" className="mr-5 text-orange">
+                PORTFOLIO
               </a>
             </li>
           </ul>

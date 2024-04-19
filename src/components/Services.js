@@ -2,65 +2,67 @@ import React from "react";
 
 export default function Services() {
   return (
-    <section
+    <div
       id="services"
-      className="flex flex-row items-center justify-center sm:flex-col py-8 my-8 font-merriweather"
+      className="flex lg:flex-row items-center sm:flex-col min-h-screen pt-24 bottom-0"
     >
-      <div className="container lg:w-full my-8 px-4  py-8 items-center">
-        <div className="flex flex-col w-full ">
-          <h1 className="title-font sm:text-3xl text-3xl mb-4 font-merriweatherbold text-orange">
-            services
-          </h1>
-        </div>
-        <div className="md:flex">
-          <div className="flex container mx-auto lg:flex-grow sm:flex-shrink sm:w-1/8 flex-col items-center mr-24">
-            <div className="mr:12">
-              <div className="mb-12">
-                <h1 className="text-xl md:text-2xl  text-left">
-                  Social Media Management
-                </h1>
-                {/* List of services under Social Media Management */}
-                <ul className="list-disc text-lg text-left">
-                  <li>Social Media Audits</li>
-                  <li>Content Creation & Ideation</li>
-                  <li>Content Design & Copy</li>
-                  <li>Social Media Strategy</li>
-                  <li>Post Analysis & Reporting</li>
-                  <li>Content Shoot Coordination</li>
-                </ul>
-              </div>
-              <div className="mb-20">
-                <h1 className="text-xl md:text-2xl  text-left ">Coaching</h1>
-                {/* List of services under Coaching */}
-                <ul className="list-disc text-lg  text-left">
-                  <li>Social Media Marketing Course</li>
-                  <li>Customized Social Media Workshops</li>
-                </ul>
-              </div>
-              <div>
-                <h1 className="text-xl md:text-2xl  text-left">
-                  Copy Writing & Editing
-                </h1>
-                {/* List of services under Copy Writing & Editing */}
-                <ul className="list-disc text-lg text-left">
-                  <li>Website Copy Writing and Editing</li>
-                  <li>Biographies</li>
-                  <li>Company profiles</li>
-                </ul>
-              </div>
+      <div className="container h-full mx-auto items-center font-droidserif">
+       <div className="md:flex">
+       <div className="grid grid-cols-1 auto-grid gap-8 md:grid-cols-4 sm:p-16 sm:m-8">
+          <div className="relative content-center">
+            <h1 className="text-3xl mb-4 font-safiramarch text-orange text-center ">
+              MY SERVICES
+            </h1>
+          </div>
+          {/* Image 1 */}
+          <div className="relative ">
+            <div className="items-center justify-end bg-black bg-opacity-50 hover:bg-opacity-75 transition duration-300">
+              <a href="/social-media-management">
+                <img
+                  className="h-full w-full object-cover md:h-full md:w-48 cursor-pointer"
+                  alt="Social Media Management"
+                  src="./image_3.png"
+                />
+              </a>
+              <h2 className="text-black text-lg font-bold mb-2">
+                Social Media Management
+              </h2>
             </div>
           </div>
-
-          <div className="sm:shrink-0 md:mr-24">
-            <img
-              className="h-48 w-50 object-cover md:h-full md:w-full"
-              alt="Olivia"
-              style={{ width: "100%" }}
-              src="./sideimage.png"
-            />
+          {/* Image 2 */}
+          <div className="relative">
+            <div className="items-center justify-end bg-black bg-opacity-50 hover:bg-opacity-75 transition duration-300">
+              <a href="/coaching">
+                <img
+                  className="h-full w-full object-cover rounded-lg cursor-pointer"
+                  alt="Coaching"
+                  src="./image_1.png"
+                />
+              </a>
+              <h2 className="text-black text-lg font-bold mb-2">
+                Consultation
+              </h2>
+            </div>
+          </div>
+          {/* Image 3 */}
+          <div className="relative">
+            <div className="items-center justify-end bg-black bg-opacity-50 hover:bg-opacity-75 transition duration-300">
+              <a href="/copy-writing-editing">
+                <img
+                  className="h-full w-full object-cover rounded-lg cursor-pointer"
+                  alt="Coaching & Training"
+                  src="./image_2.png"
+                />
+              </a>
+              <h2 className="text-black text-lg font-bold">
+                Copy Writing & Editing
+              </h2>
+            </div>
           </div>
         </div>
+       </div>
+        
       </div>
-    </section>
+    </div>
   );
 }

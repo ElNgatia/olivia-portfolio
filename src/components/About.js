@@ -4,21 +4,21 @@ export default function About() {
   return (
     <section
       id="about"
-      className="flex lg:flex-row items-center sm:flex-col min-h-screen py-8 my-8 "
+      className="flex lg:flex-row items-center sm:flex-col min-h-screen pt-24 bottom-0 "
     >
-      <div className="container mx-auto px-4 font-merriweather">
+      <div className="container mx-auto px-4 font-droidserif">
         <div className="md:flex">
           <div className="md:shrink-0 md:mr-16">
             <img
               className="h-48 w-48 object-cover md:h-full md:w-48"
               alt="Olivia"
-              style={{ width: "100%"}}
+              style={{ width: "100%" }}
               src="./olivia.jpg"
             />
           </div>
           <div className="container mx-auto lg:flex-grow sm:flex-shrink md:w-1/2 sm:w-1/8 flex-col sm:text-left md:text-left items-center text-center">
-            <h1 className="title-font sm:text-3xl text-3xl mb-4 font-merriweatherbold text-orange">
-              about me
+            <h1 className="title-font sm:text-3xl text-3xl mb-4 font-safiramarch text-orange">
+              About
             </h1>
 
             <p className="lg:text-l mb-8 leading-relaxed md:text-base sm:text-sm">

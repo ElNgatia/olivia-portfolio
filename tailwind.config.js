@@ -5,6 +5,7 @@ module.exports = {
     colors: {
       orange: "#db804e",
       white: "#ffffff",
+      brown: "#a36209"
     },
     fontFamily: {
       merriweather: ["Merriweather-Regular", "serif"],

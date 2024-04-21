@@ -5,18 +5,22 @@
 @font-face {
   font-family: "Merriweather-regular";
   src: url("../public/fonts/Merriweather-Regular.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Merriweather-bold";
   src: url("../public/fonts/Merriweather-Bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Safira March";
   src: url("../public/fonts/Safira\ March.otf");
+  font-display: swap;
 }
 
 @font-face{
   font-family: "Droid Serif";
   src: url("../public/fonts/DroidSerif-Regular.ttf");
+  font-display: swap;
 }

@@ -9,29 +9,29 @@ import Testimonials from "./components/Testimonials";
 import SocialMediaManagement from "./components/SocialMediaManagement";
 import Consultations from "./components/Consultations";
 import Coaching from "./components/Coaching";
-import { Routes, Route } from "react-router-dom";
-import { Switch } from "@material-tailwind/react";
+import NotFound from "./components/NotFound";
+import { Routes, Route, Navigate } from "react-router-dom";
 function App() {
   return (
     <>
       <Navbar />
-      <Switch>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route
-            path="/services/social-media-management"
-            element={<SocialMediaManagement />}
-          />
-          <Route path="/services/consultations" element={<Consultations />} />
-          <Route path="/services/coaching" element={<Coaching />} />
-          <Route path="/mywork" element={<MyWork />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/testimonials" element={<Testimonials />} />
-          <Route component={NotFound} />
-        </Routes>
-      </Switch>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route
+          path="/services/social-media-management"
+          element={<SocialMediaManagement />}
+        />
+        <Route path="/services/consultations" element={<Consultations />} />
+        <Route path="/services/coaching" element={<Coaching />} />
+        <Route path="/mywork" element={<MyWork />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/404" element={<NotFound/>} />
+        <Route path="*" element={<Navigate replace to="/404" />} />
+      </Routes>
     </>
   );
 }

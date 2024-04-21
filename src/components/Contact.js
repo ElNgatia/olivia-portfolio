@@ -18,7 +18,7 @@ export default function Contact() {
               className="h-40 w-48 object-cover md:h-full md:w-48 md:mb-8 sm:h-48 sm:w-48 sm:mb-8 rounded-lg"
               alt="Olivia Mukora"
               style={{ width: "100%" }}
-              src="olivia_mukora.jpg"
+              src="olivia_mukora.webp"
             />
           </div>
 

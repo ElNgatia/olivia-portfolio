@@ -38,7 +38,7 @@ export default function Consultations() {
             <img
               className=" lg:h-96 object-cover md:h-48 sm:h-auto mb-8"
               alt="Olivia"
-              src="/management.jpeg"
+              src="/management.webp"
             />
           </div>
         </div>

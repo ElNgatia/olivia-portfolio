@@ -6,7 +6,7 @@ export default function Navbar() {
     setIsNavOpen(false);
   };
   return (
-    <header className="bg-orange bg-opacity-5 fixed md:fixed top-0 w-full font-droidserif">
+    <header className="bg-orange bg-opacity-15 fixed md:fixed top-0 w-full font-droidserif">
       <div className=" flex items-center justify-end py-6 mx-4">
         <nav>
           <section className="mobile-menu flex md:hidden ">

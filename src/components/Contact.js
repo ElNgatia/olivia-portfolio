@@ -9,34 +9,36 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex items-center lg:flex-row min-h-screen sm:flex-col font-merriweather py-8 my-8"
+      className="flex items-center lg:flex-row min-h-screen sm:flex-col font-droidserif py-8 bottom-0"
     >
       <div className="container mx-auto px-4 py-8">
         <div className="md:flex">
           <div className="sm:shrink-0 md:mr-8">
             <img
-              className="h-40 w-48 object-cover md:h-full md:w-48"
+              className="h-40 w-48 object-cover md:h-full md:w-48 md:mb-8 sm:h-48 sm:w-48 sm:mb-8 rounded-lg"
               alt="Olivia Mukora"
               style={{ width: "100%" }}
               src="olivia_mukora.jpg"
             />
           </div>
 
-          <div className="container flex mx-auto md:flex-shrink sm:flex-shrink md:w-1/2 sm:w-1/8 flex-col sm:text-left md:text-left items-center justify-center text-center">
-            <h1 className="title-font sm:text-3xl text-3xl mb-4 font-medium font-merriweatherbold text-orange">
-              talk to me
+          <div className="container flex mx-auto md:flex-shrink sm:flex-shrink md:w-1/2 sm:w-1/8 flex-col sm:text-left md:text-left justify-center text-center">
+            <h1 className="title-font sm:text-5xl text-3xl mb-4 mt-4 font-medium font-safiramarch text-orange">
+              Get in Touch
             </h1>
             <div className="items-start mb-4">
-              <div className="flex flex-col space-y-2 md:space-y-0 mb-4">
-                <span className="text-sm md:text-lg font-semibold">Email:</span>
-                <p className="text-base md:text-xl">
+              <div className="flex flex-col space-y- md:space-y-0 mb-4">
+              <br/>
+                <div className="">
+                <span className="lg:text-3xl  md:text-lg font-semibold text-orange">Email:</span>
+                <a href="mailto:thetwelfthstudio@gmail.com"><p className="text-base md:text-xl text-orange">
                   thetwelfthstudio@gmail.com
-                </p>
-
-                <span className="text-sm md:text-lg font-semibold">Phone:</span>
-                <p className="text-base md:text-xl">0796 713 932</p>
-
-                <span className="text-sm md:text-lg font-semibold">
+                </p></a>
+                
+                </div>
+                <br/>
+                <div>
+                <span className=" lg:text-3xl font-semibold text-orange text-[18px]">
                   Socials:
                 </span>
                 <div className="space-x-4 items-center">
@@ -47,7 +49,7 @@ export default function Contact() {
                   >
                     <FontAwesomeIcon
                       icon={faInstagram}
-                      className="text-3xl text-blue-600 hover:text-blue-800"
+                      className="text-3xl text-dirt hover:text-blue-800"
                     />
                   </a>
                   <a
@@ -57,7 +59,7 @@ export default function Contact() {
                   >
                     <FontAwesomeIcon
                       icon={faTiktok}
-                      className="text-3xl text-blue-600 hover:text-blue-800"
+                      className="text-3xl text-dirt hover:text-blue-800"
                     />
                   </a>
                   <a
@@ -67,10 +69,15 @@ export default function Contact() {
                   >
                     <FontAwesomeIcon
                       icon={faLinkedin}
-                      className="text-3xl text-blue-600 hover:text-blue-800"
+                      className="text-3xl text-dirt hover:text-blue-800"
                     />
                   </a>
                 </div>
+                </div>
+
+                
+
+                
               </div>
             </div>
           </div>

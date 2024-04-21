@@ -32,7 +32,7 @@ export default function Services() {
               </div>
               <div>
                 <div className="items-center justify-end hover:brightness-105 transition duration-300">
-                  <a href="/coaching">
+                  <a href="/services/consultations">
                     <img
                       className=" h-1/2 w-1/2 object-cover rounded-lg cursor-pointer md:w-full mb-2"
                       alt="Coaching"
@@ -46,7 +46,7 @@ export default function Services() {
               </div>
               <div>
                 <div className="items-center justify-end hover:brightness-105 transition duration-300">
-                  <a href="/copy-writing-editing">
+                  <a href="/services/coaching">
                     <img
                       className=" h-1/2 w-1/2 object-cover rounded-lg cursor-pointer md:w-full mb-2 "
                       alt="Coaching & Training"

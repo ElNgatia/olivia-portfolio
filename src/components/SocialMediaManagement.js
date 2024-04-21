@@ -35,7 +35,7 @@ export default function SocialMediaManagement() {
               className=" lg:h-96 object-cover md:h-48 sm:h-auto mb-8"
               alt="Olivia"
               
-              src="/management.jpeg"
+              src="/management.webp"
             />
             <Button color="brown" className="place-content-center items-center rounded-full">Book a Discovery Call</Button>
           </div>

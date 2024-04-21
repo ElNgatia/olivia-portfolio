@@ -13,7 +13,7 @@ export default function About() {
               className="h-48 w-48 object-cover md:h-full md:w-48"
               alt="Olivia"
               style={{ width: "100%" }}
-              src="./olivia.jpg"
+              src="./olivia.webp"
             />
           </div>
           <div className="container mx-auto lg:flex-grow sm:flex-shrink md:w-1/2 sm:w-1/8 flex-col sm:text-left md:text-left items-center text-center">

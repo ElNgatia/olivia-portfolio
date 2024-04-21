@@ -12,7 +12,7 @@ export default function Testimonials() {
           <div className="w-full md:w-1/3 px-4 mb-8">
             <div className="aspect-w-16 aspect-h-9">
               <img
-                src="polly.png"
+                src="polly.webp"
                 alt="Polly"
                 className="object-cover w-full h-full rounded-lg"
               />
@@ -27,7 +27,7 @@ export default function Testimonials() {
           <div className="w-full md:w-1/3 px-4 mb-8">
             <div className="aspect-w-16 aspect-h-9">
               <img
-                src="nellie.png"
+                src="nellie.webp"
                 alt="Nellie"
                 className="object-cover w-full h-full rounded-lg"
               />
@@ -42,7 +42,7 @@ export default function Testimonials() {
           <div className="w-full md:w-1/3 px-4 mb-8">
             <div className="aspect-w-16 aspect-h-9">
               <img
-                src="dorothy.png"
+                src="dorothy.webp"
                 alt="Dorothy"
                 className="object-cover w-full h-full rounded-lg"
               />

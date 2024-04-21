@@ -22,7 +22,7 @@ export default function Services() {
                     <img
                       className=" h-1/2 w-1/2 object-cover rounded-lg cursor-pointer md:w-full mb-2"
                       alt="Social Media Management"
-                      src="./image_3.png"
+                      src="./image_3.webp"
                     />
                     <h2 className="text-black text-lg font-bold mb-2 text-center">
                       Social Media Management
@@ -36,7 +36,7 @@ export default function Services() {
                     <img
                       className=" h-1/2 w-1/2 object-cover rounded-lg cursor-pointer md:w-full mb-2"
                       alt="Coaching"
-                      src="./image_1.png"
+                      src="./image_1.webp"
                     />
                     <h2 className="text-black text-lg font-bold mb-2 text-center">
                       Consultation
@@ -50,7 +50,7 @@ export default function Services() {
                     <img
                       className=" h-1/2 w-1/2 object-cover rounded-lg cursor-pointer md:w-full mb-2 "
                       alt="Coaching & Training"
-                      src="./image_2.png"
+                      src="./image_2.webp"
                     />
                     <h2 className="text-black text-lg font-bold mb-2 text-center">
                       Copy Writing & Editing

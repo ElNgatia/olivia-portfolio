@@ -9,7 +9,7 @@ export default function MyWork() {
         <div className="grid grid-row-2 auto-rows-fr sm:grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           <div>
             <img
-              src="stpaul.jpg"
+              src="stpaul.webp"
               alt="St. Paul Youth Services"
               className="object-cover w-full h-full  mb-4"
               style={{
@@ -34,7 +34,7 @@ export default function MyWork() {
           </div>
           <div>
             <img
-              src="artistic_psychologist.jpg"
+              src="artistic_psychologist.webp"
               alt="The Artistic Psychologist"
               className="object-cover w-full h-full mb-4"
               style={{
@@ -55,7 +55,7 @@ export default function MyWork() {
           </div>
           <div>
             <img
-              src="wanjiku_socials.jpg"
+              src="wanjiku_socials.webp"
               alt="Wanjiku Socials"
               className="object-cover w-full h-full mb-4"
               style={{
@@ -98,7 +98,7 @@ export default function MyWork() {
           </div>
           <div>
             <img
-              src="muthoni_music.jpg"
+              src="muthoni_music.webp"
               alt="Muthoni Music"
               className="object-cover w-full h-full  mb-4"
               style={{
@@ -133,7 +133,7 @@ export default function MyWork() {
           </div>
           <div>
             <img
-              src="beauty_square.png"
+              src="beauty_square.webp"
               alt="Beauty Square"
               className="object-cover w-full h-full mb-4"
               style={{
@@ -156,7 +156,7 @@ export default function MyWork() {
           </div>
           <div>
             <img
-              src="kidum.jpg"
+              src="kidum.webp"
               alt="Kidum"
               className="object-cover w-full h-full mb-4"
               style={{

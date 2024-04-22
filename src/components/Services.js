@@ -53,7 +53,7 @@ export default function Services() {
                       src="./image_2.webp"
                     />
                     <h2 className="text-black text-lg font-bold mb-2 text-center">
-                      Copy Writing & Editing
+                    Coaching & Training
                     </h2>
                   </a>
                 </div>

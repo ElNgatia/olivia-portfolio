@@ -25,13 +25,15 @@ export default function Consultations() {
             </p>
             <br />
             <br />
-            <div className="flex justify-center mb-12">
+            <div className="flex justify-start mb-12">
+              <a href="https://calendly.com/thetwelfthstudio/discovery-call" target="_blank" rel="noreferrer">
               <Button
                 color="brown"
                 className="rounded-full"
               >
                 Book a session
               </Button>
+              </a>
             </div>
           </div>
           <div className="md:shrink-0 md:mr-16 place-content-center">

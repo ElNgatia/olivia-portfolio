@@ -20,27 +20,18 @@ export default function Consultations() {
               Course and facilitate Social Media Workshops <br />
               for organizations on a contractual basis.
             </p>
-            {/* <p className="text-dirt lg:text-2xl text-[18px]">
-              Investment: Ksh. 3,000 per hour
-            </p> */}
+           
             <br />
             <br />
-            {/* <div className="flex justify-center mb-12">
-              <Button
-                color="brown"
-                className="rounded-full"
-              >
-                Book a session
-              </Button>
-            </div> */}
+            
           </div>
-          {/* <div className="md:shrink-0 md:mr-16 place-content-center">
+          <div className="md:shrink-0 md:mr-16 place-content-center">
             <img
-              className=" lg:h-96 object-cover md:h-48 sm:h-auto mb-8"
+              className=" lg:h-96 w-72 object-cover md:h-48 sm:h-auto mb-8"
               alt="Olivia"
-              src="/management.webp"
+              src="/workshop.webp"
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

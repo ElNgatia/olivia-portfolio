@@ -17,7 +17,7 @@ export default function About() {
             />
           </div>
           <div className="container mx-auto lg:flex-grow sm:flex-shrink md:w-1/2 sm:w-1/8 flex-col sm:text-left md:text-left items-center text-center">
-            <h1 className="title-font sm:text-3xl text-3xl mb-4 font-safiramarch text-orange">
+            <h1 className="title-font sm:text-3xl text-3xl mb-4 font-safiramarch text-dirt">
               About
             </h1>
 

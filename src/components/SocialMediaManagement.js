@@ -37,7 +37,9 @@ export default function SocialMediaManagement() {
               
               src="/management.webp"
             />
+            <a href="https://calendly.com/thetwelfthstudio/discovery-call" target="_blank" rel="noreferrer">
             <Button color="brown" className="place-content-center items-center rounded-full">Book a Discovery Call</Button>
+            </a>
           </div>
         </div>
       </div>

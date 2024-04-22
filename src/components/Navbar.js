@@ -7,7 +7,13 @@ export default function Navbar() {
   };
   return (
     <header className="bg-orange bg-opacity-15 fixed md:fixed top-0 w-full font-droidserif">
-      <div className=" flex items-center justify-end py-6 mx-4">
+      <div className=" flex items-center justify-between py-6 mx-4">
+      <a
+          className="mb-4 md:mb-0 ml-3 scale-150 bg-white rounded-lg p-1 hover:shadow-lg"
+          href="/"
+        >
+          <img src="/12thstudiologo.webp" alt="Olivia" className="h-12 w-12 object-cover scale-150" />
+        </a>
         <nav>
           <section className="mobile-menu flex md:hidden ">
             <div

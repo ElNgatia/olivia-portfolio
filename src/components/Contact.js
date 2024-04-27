@@ -23,22 +23,22 @@ export default function Contact() {
           </div>
 
           <div className="container flex mx-auto md:flex-shrink sm:flex-shrink md:w-1/2 sm:w-1/8 flex-col sm:text-left md:text-left justify-center text-center">
-            <h1 className="title-font sm:text-5xl text-3xl mb-4 mt-4 font-medium font-safiramarch text-orange">
+            <h1 className="title-font sm:text-5xl text-3xl mb-4 mt-4 font-medium font-safiramarch text-dirt">
               Get in Touch
             </h1>
             <div className="items-start mb-4">
               <div className="flex flex-col space-y- md:space-y-0 mb-4">
               <br/>
                 <div className="">
-                <span className="lg:text-3xl  md:text-lg font-semibold text-orange">Email:</span>
-                <a href="mailto:thetwelfthstudio@gmail.com"><p className="text-base md:text-xl text-orange">
+                <span className="lg:text-3xl  md:text-lg font-semibold text-dirt">Email:</span>
+                <a href="mailto:thetwelfthstudio@gmail.com"><p className="text-base md:text-xl text-dirt">
                   thetwelfthstudio@gmail.com
                 </p></a>
                 
                 </div>
                 <br/>
                 <div>
-                <span className=" lg:text-3xl font-semibold text-orange text-[18px]">
+                <span className=" lg:text-3xl font-semibold text-dirt text-[18px]">
                   Socials:
                 </span>
                 <div className="space-x-4 items-center">

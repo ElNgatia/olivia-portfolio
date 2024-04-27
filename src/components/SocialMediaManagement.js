@@ -9,7 +9,7 @@ export default function SocialMediaManagement() {
     >
       <div className="flex-row space-x-8 space-y-24 container my-auto mx-auto px-4 h-full  justify-around">
         <div className="">
-          <h2 className="lg:text-3xl md:text-base m-4 font-safiramarch text-orange text-center ">
+          <h2 className="lg:text-3xl md:text-base m-4 font-safiramarch text-dirt text-center ">
             Social Media Management And Curation
           </h2>
         </div>

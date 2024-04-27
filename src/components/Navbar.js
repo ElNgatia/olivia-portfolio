@@ -6,7 +6,7 @@ export default function Navbar() {
     setIsNavOpen(false);
   };
   return (
-    <header className="bg-orange bg-opacity-15 fixed md:fixed top-0 w-full font-droidserif">
+    <header className="bg-dirt bg-opacity-15 fixed md:fixed top-0 w-full font-droidserif">
       <div className=" flex items-center justify-between py-6 mx-4">
       <a
           className="mb-4 md:mb-0 ml-3 scale-150 bg-white rounded-lg p-1 hover:shadow-lg"
@@ -20,9 +20,9 @@ export default function Navbar() {
               className="HAMBURGER-ICON space-y-2 mr-8"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <span className="block h-0.5 w-8 animate-pulse bg-orange"></span>
-              <span className="block h-0.5 w-8 animate-pulse bg-orange"></span>
-              <span className="block h-0.5 w-8 animate-pulse bg-orange"></span>
+              <span className="block h-0.5 w-8 animate-pulse bg-dirt"></span>
+              <span className="block h-0.5 w-8 animate-pulse bg-dirt"></span>
+              <span className="block h-0.5 w-8 animate-pulse bg-dirt"></span>
             </div>
             <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
               <div
@@ -45,14 +45,14 @@ export default function Navbar() {
               <div className="flex flex-col items-center justify-center space-y-6 h-screen">
                 <a
                   href="/about"
-                  className="mr-5 hover:text-orange"
+                  className="mr-5 hover:text-dirt"
                   onClick={closeMenu}
                 >
                   ABOUT
                 </a>
                 <a
                   href="/services"
-                  className="mr-5 hover:text-orange"
+                  className="mr-5 hover:text-dirt"
                   onClick={closeMenu}
                 >
                   SERVICES
@@ -60,14 +60,14 @@ export default function Navbar() {
 
                 <a
                   href="/contact"
-                  className="mr-5 hover:text-orange"
+                  className="mr-5 hover:text-dirt"
                   onClick={closeMenu}
                 >
                   CONTACT ME
                 </a>
                 <a
                   href="/mywork"
-                  className="mr-5 hover:text-orange"
+                  className="mr-5 hover:text-dirt"
                   onClick={closeMenu}
                 >
                   PORTFOLIO
@@ -77,23 +77,23 @@ export default function Navbar() {
           </section>
           <ul className="DESKTOP-MENU hidden space-x-8 md:flex">
             <li>
-              <a href="/about" className="mr-5 text-orange">
+              <a href="/about" className="mr-5 text-dirt">
                 ABOUT
               </a>
             </li>
             <li>
-              <a href="/services" className="mr-5 text-orange">
+              <a href="/services" className="mr-5 text-dirt">
                 SERVICES
               </a>
             </li>
 
             <li>
-              <a href="/contact" className="mr-5 text-orange">
+              <a href="/contact" className="mr-5 text-dirt">
                 CONTACT ME
               </a>
             </li>
             <li>
-              <a href="/mywork" className="mr-5 text-orange">
+              <a href="/mywork" className="mr-5 text-dirt">
                 PORTFOLIO
               </a>
             </li>
@@ -110,7 +110,7 @@ export default function Navbar() {
         height: 100vh;
         top: 0;
         left: 0;
-        background: orange;
+        background: dirt;
         z-index: 10;
         display: flex;
         flex-direction: column;

@@ -110,7 +110,7 @@ export default function Navbar() {
         height: 100vh;
         top: 0;
         left: 0;
-        background: dirt;
+        background: orange;
         z-index: 10;
         display: flex;
         flex-direction: column;

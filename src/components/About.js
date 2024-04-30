@@ -6,18 +6,19 @@ export default function About() {
       id="about"
       className="flex lg:flex-row items-center sm:flex-col min-h-screen pt-24 bottom-0 "
     >
-      <div className="container mx-auto px-4 font-droidserif">
-        <div className="md:flex">
-          <div className="md:shrink-0 md:mr-16">
+      <div className="container mx-auto px-4 py-8 font-droidserif">
+        <div className="md:flex md:space-y-8">
+          <div className="md:shrink-0 md:mr-16 sm:mb-9 ">
             <img
-              className="h-48 w-48 object-cover md:h-full md:w-48"
+              className="h-48 w-48 object-cover md:h-full md:w-48 md:mb-8"
               alt="Olivia"
               style={{ width: "100%" }}
               src="./olivia.webp"
             />
           </div>
-          <div className="container mx-auto lg:flex-grow sm:flex-shrink md:w-1/2 sm:w-1/8 flex-col sm:text-left md:text-left items-center text-center">
-            <h1 className="title-font sm:text-3xl text-3xl mb-4 font-safiramarch text-dirt">
+          
+          <div className="container mx-auto lg:flex-grow sm:flex-shrink md:w-1/2 sm:w-1/8 flex-col sm:text-left md:text-left items-center text-center sm:mt-10">
+            <h1 className="title-font sm:text-xl lg:text-3xl mt-4 mb-4 font-safiramarch text-dirt ">
               About
             </h1>
 

@@ -26,7 +26,7 @@ export default function Consultations() {
             <br />
             <br />
             <div className="flex justify-start mb-12">
-              <a href="https://calendly.com/thetwelfthstudio/discovery-call" target="_blank" rel="noreferrer">
+              <a href="https://forms.gle/pKrgtuohkji5wpPb8" target="_blank" rel="noreferrer">
               <Button
                 color="brown"
                 className="rounded-full"

@@ -8,7 +8,7 @@ export default function Services() {
       <div className="m-4">
         <div className=" grid grid-cols-1 gap-8 md:grid-cols-4 auto-rows-fr sm:justify-center place-content-center">
           <div className="content-center">
-            <h1 className="text-3xl md:text-sm mb-4 font-safiramarch text-dirt text-center ">
+            <h1 className="text-xl  md:text-base sm:text-sm mb-4 font-safiramarch text-dirt text-center ">
               MY SERVICES
             </h1>
           </div>

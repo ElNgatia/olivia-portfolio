@@ -1,4 +1,3 @@
-
 import withMT from "@material-tailwind/react/utils/withMT";
 module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -6,7 +5,7 @@ module.exports = withMT({
     colors: {
       orange: "#db804e",
       white: "#ffffff",
-      dirt: "#a36209"
+      dirt: "#a36209",
     },
     fontFamily: {
       merriweather: ["Merriweather-Regular", "serif"],
@@ -15,7 +14,9 @@ module.exports = withMT({
       droidserif: ["Droid Serif", "serif"],
     },
     extend: {
-     
+      backgroundImage: {
+        "hero-pattern": "url('../public/mt-sample-background.jpg')",
+      },
     },
   },
   plugins: [],

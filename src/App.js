@@ -11,7 +11,16 @@ import Consultations from "./components/Consultations";
 import Coaching from "./components/Coaching";
 import NotFound from "./components/NotFound";
 import { Routes, Route, Navigate } from "react-router-dom";
+import TagManager from "react-gtm-module";
 function App() {
+
+  const tagManagerArgs = {
+    gtmId: 'G-YJSXHQ3ZGY'
+  }
+
+  TagManager.initialize(tagManagerArgs)
+
+
   return (
     <>
       <Navbar />

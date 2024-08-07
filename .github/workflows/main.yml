@@ -5,22 +5,22 @@ on:
       - master
 jobs:
   FTP-Deploy-Action:
-    name: 🎉 Deploy
+    name: Setup
     runs-on: ubuntu-latest
 
     steps:
       - name: 🚚 Get latest code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
-      - name: Use Node.js 16
-        uses: actions/setup-node@v2
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '20'
 
       - name: Cache npm dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cache-node-modules
         with:
           path: '**/node_modules'
@@ -33,6 +33,14 @@ jobs:
           npm run build
         env:
          CI: false
+         
+  Deploy:
+    needs: [FTP-Deploy-Action]
+    name: Deploy 🎉
+    runs-on: ubuntu-latest
+
+    steps:
+
       - name: 📂 Sync folders and files to the server
         uses: sebastianpopp/ftp-action@releases/v2
         with:

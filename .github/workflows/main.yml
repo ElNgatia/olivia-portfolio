@@ -34,12 +34,6 @@ jobs:
         env:
          CI: false
          
-  Deploy:
-    needs: [FTP-Deploy-Action]
-    name: Deploy 🎉
-    runs-on: ubuntu-latest
-
-    steps:
 
       - name: 📂 Sync folders and files to the server
         uses: sebastianpopp/ftp-action@releases/v2

@@ -53,4 +53,4 @@ To deepen your understanding of React and deployment automation, check out these
 Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
-MIT Licensed - see LICENSE file for details.
+[MIT License](./LICENSE).

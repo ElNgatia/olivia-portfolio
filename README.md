@@ -1,74 +1,56 @@
+# Olivia Portfolio
 
-[![🚀 Deploy File to cPanel](https://github.com/ElNgatia/olivia-portfolio/actions/workflows/main.yml/badge.svg)](https://github.com/ElNgatia/olivia-portfolio/actions/workflows/main.yml)
+[![🚀 Deploy to cPanel](https://github.com/ElNgatia/olivia-portfolio/actions/workflows/main.yml/badge.svg)](https://github.com/ElNgatia/olivia-portfolio/actions/workflows/main.yml)
+
+A professional portfolio built with React, featuring automated deployment via GitHub Actions.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14+)
+- [npm](https://www.npmjs.com/) (v6+)
+- [Git](https://git-scm.com/)
+
+## Setup
+
+### 1. Clone the repository:
+     git clone https://github.com/ElNgatia/olivia-portfolio.git
+     cd olivia-portfolio
+   
+### 2. Install dependencies:
+    
+    npm install
+    
+### 3. Scripts
+ #### Launch development server: 
+    npm start
+    
+ #### Run test suite:
+     npm test
+
+#### Create production build:
+ 
+    npm run build
 
 
-# Getting Started with Create React App
+### 4. Deployment
+Production build is automatically deployed to cPanel via GitHub Actions on push to main. The workflow:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ - Installs dependencies
 
-## Available Scripts
+  - Creates optimized production build
 
-In the project directory, you can run:
+- Deploys to cPanel hosting
 
-### `npm start`
+## Learning Resources
+To deepen your understanding of React and deployment automation, check out these resources:
+- [React Docs](https://react.dev/learn)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Create React App](https://create-react-app.dev/docs/getting-started/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [GitHub Actions](https://docs.github.com/en/actions)
 
-### `npm test`
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+MIT Licensed - see LICENSE file for details.

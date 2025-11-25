@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/olivia-portfolio/static/css/main.6c15e95b.css",
+    "main.js": "/olivia-portfolio/static/js/main.a6d45cdf.js",
+    "static/js/453.bad96401.chunk.js": "/olivia-portfolio/static/js/453.bad96401.chunk.js",
+    "static/media/DroidSerif-Regular.ttf": "/olivia-portfolio/static/media/DroidSerif-Regular.676e8361ba2314e5d3b4.ttf",
+    "static/media/hero.webp": "/olivia-portfolio/static/media/hero.08e3c7626b5f9e066ade.webp",
+    "static/media/Merriweather-Regular.ttf": "/olivia-portfolio/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
+    "static/media/Safira March.otf": "/olivia-portfolio/static/media/Safira March.0255a3107451e9e0e3d7.otf",
+    "static/media/Merriweather-Bold.ttf": "/olivia-portfolio/static/media/Merriweather-Bold.ae39f743fdcf8f64531e.ttf",
+    "index.html": "/olivia-portfolio/index.html",
+    "main.6c15e95b.css.map": "/olivia-portfolio/static/css/main.6c15e95b.css.map",
+    "main.a6d45cdf.js.map": "/olivia-portfolio/static/js/main.a6d45cdf.js.map",
+    "453.bad96401.chunk.js.map": "/olivia-portfolio/static/js/453.bad96401.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c15e95b.css",
+    "static/js/main.a6d45cdf.js"
+  ]
+}
